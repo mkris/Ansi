@@ -27,7 +27,11 @@ public enum Color: Equatable {
     case .green:
       return NSColor(hex: "#00ff00")
     case .yellow:
-      return NSColor(hex: "#ffff00")
+      return NSColor(hex: "#afaf28")
+    case .magenta:
+      return NSColor(hex: "#d53ed2")
+    case .cyan:
+      return NSColor(hex: "#33bbc7")
     case let .rgb(red, green, blue):
       let r1 = String(format: "%2X", red)
       let g1 = String(format: "%2X", green)
