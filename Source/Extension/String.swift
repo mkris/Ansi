@@ -1,8 +1,8 @@
 import AppKit
 
 public extension String {
-  func ansified(using font: NSFont = NSFont.systemFont(ofSize: 0)) throws -> NSAttributedString {
-    return try process(string: self, using: font)
+  func ansified(font: NSFont = NSFont.systemFont(ofSize: 0), color: NSColor? = nil) throws -> NSAttributedString {
+    return try process(string: self, using: font, defaultColor: color)
   }
 
   func replace(_ what: String, _ with: String) -> String {
