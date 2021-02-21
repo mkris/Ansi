@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author = { 'Linus Oleander' => 'linus@oleander.io' }
   s.platform = :osx, '10.12'
-  s.source = { git: 'https://github.com/mkris/Ansi.git', tag: "#{s.version}" }
+  s.source = { git: 'https://github.com/mkris/Ansi.git', :branch => 'master'}
   s.source_files = 'Source/**/*.swift'
   s.swift_versions = '5.0'
   s.dependency 'Hue'
