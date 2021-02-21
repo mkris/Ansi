@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
   s.dependency 'Hue'
   s.dependency 'BonMot'
+  s.dependency 'FootlessParser', '~> 0.5.2'
 end
