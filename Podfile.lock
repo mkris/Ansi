@@ -13,7 +13,7 @@ DEPENDENCIES:
   - Quick
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - BonMot
     - FootlessParser
     - Hue
@@ -29,4 +29,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: ccd5e78ffabc4437df20c69a765fbafba36803a4
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.0
