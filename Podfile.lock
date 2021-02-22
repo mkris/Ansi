@@ -1,5 +1,5 @@
 PODS:
-  - BonMot (5.5)
+  - BonMot (5.6.0)
   - FootlessParser (0.5.2)
   - Hue (5.0.0)
   - Nimble (6.1.0)
@@ -7,7 +7,7 @@ PODS:
 
 DEPENDENCIES:
   - BonMot
-  - FootlessParser
+  - FootlessParser (~> 0.5)
   - Hue
   - Nimble (< 7.0.0)
   - Quick
@@ -21,7 +21,7 @@ SPEC REPOS:
     - Quick
 
 SPEC CHECKSUMS:
-  BonMot: 58a86daf442518ff78e00cf54430fd03de37945a
+  BonMot: 2217a66e5ddc6a8d2ffb759fe8c85a8528e0d3e7
   FootlessParser: 521916d592fa6cba06cfca6f4b5d4f5a2d49175a
   Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
   Nimble: c53e6903fee94041b90ded74f135820437d8bf59
