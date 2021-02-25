@@ -7,6 +7,6 @@ target 'Ansi' do
   target 'Tests' do
     inherit! :search_paths
     pod 'Quick'
-    pod 'Nimble', '< 7.0.0'
+    pod 'Nimble', '~> 9.0.0'
   end
 end

@@ -2,14 +2,14 @@ PODS:
   - BonMot (5.6.0)
   - FootlessParser (0.5.2)
   - Hue (5.0.0)
-  - Nimble (6.1.0)
+  - Nimble (9.0.0)
   - Quick (2.2.0)
 
 DEPENDENCIES:
   - BonMot
   - FootlessParser (~> 0.5)
   - Hue
-  - Nimble (< 7.0.0)
+  - Nimble (~> 9.0.0)
   - Quick
 
 SPEC REPOS:
@@ -24,9 +24,9 @@ SPEC CHECKSUMS:
   BonMot: 2217a66e5ddc6a8d2ffb759fe8c85a8528e0d3e7
   FootlessParser: 521916d592fa6cba06cfca6f4b5d4f5a2d49175a
   Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
-  Nimble: c53e6903fee94041b90ded74f135820437d8bf59
+  Nimble: 3b4ec3fd40f1dc178058e0981107721c615643d8
   Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
 
-PODFILE CHECKSUM: 50b3cf1fec9dfa2261ecd506b0d1746e15f0fcd8
+PODFILE CHECKSUM: ce8ab6bb5a0559ed3a7ca35afa69c933438106d9
 
 COCOAPODS: 1.10.0

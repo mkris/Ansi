@@ -5,7 +5,7 @@ import Nimble
 class Helper: QuickSpec {
   func match<T>(_ parser: P<T>, _ input: String, _ block: @escaping (T) -> Void) {
     do {
-      block(try parser.parse(AnyCollection(input.characters)).0)
+      block(try parser.parse(AnyCollection(input)).0)
     } catch (let error) {
       fail("Did fail with \(error)")
     }
@@ -13,7 +13,7 @@ class Helper: QuickSpec {
 
   func failure<T>(_ parser: P<T>, _ input: String) {
     do {
-      let (output, res) = try parser.parse(AnyCollection(input.characters))
+      let (output, res) = try parser.parse(AnyCollection(input))
       fail("Expected it to fail but got \(output): \(String(res))")
     } catch {
       /* OK */
